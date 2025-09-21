@@ -11,13 +11,15 @@
 
 # Nord color scheme for i3
 # class                 border    background text     indicator child_border
-client.focused          #88C0D0   #88C0D0    #2E3440  #81A1C1   #88C0D0
-client.focused_inactive #3B4252   #3B4252    #D8DEE9  #4C566A   #3B4252
-client.unfocused        #2E3440   #2E3440    #D8DEE9  #4C566A   #2E3440
+# Nord Dark color scheme for i3
+# class                 border    background text     indicator child_border
+client.focused          #4C566A   #4C566A    #ECEFF4  #88C0D0   #4C566A
+client.focused_inactive #3B4252   #3B4252    #D8DEE9  #434C5E   #3B4252
+client.unfocused        #2E3440   #2E3440    #D8DEE9  #434C5E   #2E3440
 client.urgent           #BF616A   #BF616A    #ECEFF4  #D08770   #BF616A
-client.placeholder      #2E3440   #2E3440    #D8DEE9  #4C566A   #2E3440
+client.placeholder      #2E3440   #2E3440    #D8DEE9  #434C5E   #2E3440
 
-# Border thickness (2px for minimal look)
+# Border thickness
 new_window pixel 2
 new_float  pixel 2
 

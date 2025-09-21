@@ -9,6 +9,18 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+# Nord color scheme for i3
+# class                 border    background text     indicator child_border
+client.focused          #88C0D0   #88C0D0    #2E3440  #81A1C1   #88C0D0
+client.focused_inactive #3B4252   #3B4252    #D8DEE9  #4C566A   #3B4252
+client.unfocused        #2E3440   #2E3440    #D8DEE9  #4C566A   #2E3440
+client.urgent           #BF616A   #BF616A    #ECEFF4  #D08770   #BF616A
+client.placeholder      #2E3440   #2E3440    #D8DEE9  #4C566A   #2E3440
+
+# Border thickness (2px for minimal look)
+new_window pixel 2
+new_float  pixel 2
+
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
